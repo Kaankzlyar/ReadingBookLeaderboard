@@ -1,0 +1,54 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+@model List<BookItem>
+
+<br />
+<div class="container p-4 border">
+    <div class="row pb-2">
+
+        <div class="col">
+            <h1 class="text-primary">Users</h1>
+        </div>
+
+        <div class="col text-end p1-1">
+            <a asp-controller="Users" asp-action="Create" class="btn btn-primary">New User</a>
+        </div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Page Number</th>
+                    <th>Today Pages</th>
+                    <th>Total Pages</th>
+                    <th>Streak</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+           
+            <tbody>
+                @foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.Rank</td>
+                        <td>@item.UserName</td>
+                        <td>@item.PageNumber</td>
+                        <td>@item.TodayPageNumber</td>
+                        <td>@item.TotalPages</td>
+                        <td>@item.StreakNumber</td>
+                        <td>
+                               <a asp-controller="Users" asp-action="Details" asp-route-Id="@item.Id"
+                                class="btn btn-primary">Details</a>
+
+                               <a asp-controller="Users" asp-action="Delete" asp-route-Id="@item.Id"
+                               class="btn btn-primary">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+           </table>
+        
+    </div>
+
+</div>

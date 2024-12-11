@@ -1,0 +1,54 @@
+﻿@model LeaderboardFrontend.Models.BookItem
+
+
+
+<form asp-action="PostBookItem" method="post">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-primary">Yeni Kullanıcı </h1>
+
+        <hr />
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-2">
+                <label asp-for="UserName" class="control-label pt-2" style="font-size:14px;"></label>
+            </div>
+
+            <div class="col-10 pb3">
+                <input asp-for="UserName" class="form-control" style="margin-bottom:20px" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+
+            <div class="col-2">
+                <label asp-for="PageNumber" class="control-label pt-2" style="font-size:14px;"></label>
+            </div>
+
+            <div class="col-10 pb3">
+                <input asp-for="PageNumber" class="form-control" style="margin-bottom:20px" />
+                <span asp-validation-for="PageNumber" class="text-danger"></span>
+            </div>
+
+            <div class="col-2">
+                <label asp-for="TodayPageNumber" class="control-label pt-2" style="font-size:14px;"></label>
+            </div>
+
+            <div class="col-10 pb3">
+                <input asp-for="TodayPageNumber" class="form-control"  style="margin-bottom: 20px" />
+                <span asp-validation-for="TodayPageNumber" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="col-5 offset-2">
+                <a asp-action="Index" asp-controller="Users" class="btn btn-primary form-control">Back To Leaderboard</a>
+            </div>
+
+            <div class="col-5">
+                <input type="submit" asp-controller="Users" class="btn btn-success form-control" />
+            </div>
+
+        </div>
+    </div>
+
+</form>
+
+
