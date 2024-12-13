@@ -1,4 +1,4 @@
-namespace WebApplication10.Models
+namespace LeaderboardFrontend.Models
 {
     public class ErrorViewModel
     {

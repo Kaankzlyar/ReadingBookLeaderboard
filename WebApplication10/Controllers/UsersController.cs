@@ -13,7 +13,7 @@ namespace LeaderboardFrontend.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<BookItem> listUsers = new List<BookItem>();
+            List<LeaderboardViewModel> listUsers = new List<LeaderboardViewModel>();
 
             using (var _httpClient = new HttpClient())
             {
@@ -29,7 +29,7 @@ namespace LeaderboardFrontend.Controllers
                 {
                     // Asenkron olarak içeriği oku ve deserialize et
                     string result = await getData.Content.ReadAsStringAsync();
-                    listUsers = JsonConvert.DeserializeObject<List<BookItem>>(result);
+                    listUsers = JsonConvert.DeserializeObject<List<LeaderboardViewModel>>(result);
                 }
                 else
                 {
@@ -46,8 +46,20 @@ namespace LeaderboardFrontend.Controllers
             return View();
         }
 
-        public async Task<IActionResult> PostBookItem(BookItem log)
+        public async Task<IActionResult> PostLeaderboardItem(LeaderboardViewModel log)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(log);
+            }
+
+            var LeaderboardItem = new LeaderboardViewModel
+            {
+                Username = log.Username,
+                TotalPages = log.TotalPages,
+                TodayPages = log.TodayPages,
+            };
+
             using (var _httpClient = new HttpClient())
             {
                 _httpClient.BaseAddress = new Uri(baseURL + "/api/BookItemsApi");
@@ -55,8 +67,7 @@ namespace LeaderboardFrontend.Controllers
                 _httpClient.DefaultRequestHeaders.Accept.Add(
                     new MediaTypeWithQualityHeaderValue("application/json"));
 
-               
-                HttpResponseMessage postData = await _httpClient.PostAsJsonAsync("",log);
+                HttpResponseMessage postData = await _httpClient.PostAsJsonAsync("", LeaderboardItem);
 
                 if (postData.IsSuccessStatusCode)
                 {
@@ -64,10 +75,13 @@ namespace LeaderboardFrontend.Controllers
                 }
                 else
                 {
-                    return RedirectToAction("ErrorPage"); // Hata sayfasına yönlendir
+                    return RedirectToAction("ErrorPage");
                 }
             }
         }
+        
+
+       
 
         public IActionResult ErrorPage()
         {

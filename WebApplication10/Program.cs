@@ -1,10 +1,10 @@
-using WebApplication10.Models;
+using LeaderboardFrontend.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddHttpClient<BookItem>();
+builder.Services.AddHttpClient<LeaderboardViewModel>();
 
 var app = builder.Build();
 

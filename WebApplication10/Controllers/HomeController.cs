@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication10.Models;
+using LeaderboardFrontend.Models;
 
 namespace WebApplication10.Controllers
 {
