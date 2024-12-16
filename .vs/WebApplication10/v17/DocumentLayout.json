@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|solutionrelative:webapplication10\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|c:\\users\\kaank\\source\\repos\\webapplication10\\webapplication10\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|solutionrelative:webapplication10\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|c:\\users\\kaank\\source\\repos\\webapplication10\\webapplication10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|solutionrelative:webapplication10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|c:\\users\\kaank\\source\\repos\\webapplication10\\webapplication10\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|solutionrelative:webapplication10\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|c:\\users\\kaank\\source\\repos\\webapplication10\\webapplication10\\models\\leaderboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|solutionrelative:webapplication10\\models\\leaderboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|c:\\users\\kaank\\source\\repos\\webapplication10\\webapplication10\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|solutionrelative:webapplication10\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|c:\\users\\kaank\\source\\repos\\webapplication10\\webapplication10\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8288B01B-A01C-4877-93CF-17FA31EA1AD3}|WebApplication10\\LeaderboardFrontend.csproj|solutionrelative:webapplication10\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApplication10\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApplication10\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwJ0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:51:31.165Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -47,27 +77,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication10\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "WebApplication10\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T13:52:20.93Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication10\\Program.cs",
+              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Program.cs",
+              "RelativeToolTip": "WebApplication10\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:33:43.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WebApplication10\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WebApplication10\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication10\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication10\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T13:19:54.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication10\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "WebApplication10\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T13:10:18.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication10\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "WebApplication10\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T13:09:55.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaderboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Models\\LeaderboardViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication10\\Models\\LeaderboardViewModel.cs",
+              "ToolTip": "C:\\Users\\kaank\\source\\repos\\WebApplication10\\WebApplication10\\Models\\LeaderboardViewModel.cs",
+              "RelativeToolTip": "WebApplication10\\Models\\LeaderboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T09:51:31.165Z",
+              "WhenOpened": "2024-12-16T13:01:47.923Z",
               "EditorCaption": ""
             }
           ]

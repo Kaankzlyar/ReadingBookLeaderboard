@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kaank/source/repos/WebApplication10/WebApplication10/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kaank/source/repos/WebApplication10/WebApplication10/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kaank/source/repos/WebApplication10/WebApplication10/Views/Users/ErrorPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRXJyb3JQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

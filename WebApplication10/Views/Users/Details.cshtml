@@ -1,0 +1,59 @@
+﻿@* @model LeaderboardFrontend.Models.LeaderboardViewModel
+
+
+
+<form asp-controller="Users" asp-action="PostLeaderboardItem" method="post">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-primary">Yeni Kullanıcı Detayları</h1>
+
+        <hr />
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Kullanıcı Adı -->
+            <div class="col-2">
+                <label asp-for="Username" class="control-label pt-2" style="font-size:14px;">Kullanıcı Adı</label>
+            </div>
+            <div class="col-10 pb3">
+                <input asp-for="Username" class="form-control" style="margin-bottom:20px" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <!-- Toplam Sayfa -->
+            <div class="col-2">
+                <label asp-for="TotalPages" class="control-label pt-2" style="font-size:14px;">Toplam Sayfa</label>
+            </div>
+            <div class="col-10 pb3">
+                <input asp-for="TotalPages" class="form-control" style="margin-bottom:20px" />
+                <span asp-validation-for="TotalPages" class="text-danger"></span>
+            </div>
+
+            <!-- Bugünkü Sayfa -->
+            <div class="col-2">
+                <label asp-for="TodayPages" class="control-label pt-2" style="font-size:14px;">Bugünkü Sayfa</label>
+            </div>
+            <div class="col-10 pb3">
+                <input asp-for="TodayPages" class="form-control" style="margin-bottom:20px" />
+                <span asp-validation-for="TodayPages" class="text-danger"></span>
+            </div>
+
+            <br />
+            <!-- Geri Dön -->
+            <div class="col-5 offset-2">
+                <a asp-action="Index" asp-controller="Users" class="btn btn-primary form-control">Back To Leaderboard</a>
+            </div>
+
+            <!-- Gönder -->
+            <div class="col-5">
+                <input type="submit" class="btn btn-success form-control" value="Gönder" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+ *@

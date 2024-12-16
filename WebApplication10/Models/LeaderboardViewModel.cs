@@ -5,7 +5,6 @@ namespace LeaderboardFrontend.Models
 {
     public class LeaderboardViewModel
     {
-        
         public long Id { get; set; }
         public int Rank { get; set; }
 
